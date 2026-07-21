@@ -1,4 +1,5 @@
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Force l'utilisation CPU uniquement
 import gdown
 import numpy as np
 import streamlit as st
